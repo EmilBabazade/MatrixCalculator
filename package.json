@@ -2,7 +2,7 @@
   "name": "matrixcalc",
   "version": "1.0.0",
   "description": "Matrix Calculator",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,10 +10,15 @@
     "type": "git",
     "url": "git+https://github.com/EmilBabazade/MatrixCalculator.git"
   },
-  "author": "",
+  "author": "Emil Babazade",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/EmilBabazade/MatrixCalculator/issues"
   },
-  "homepage": "https://github.com/EmilBabazade/MatrixCalculator#readme"
+  "homepage": "https://github.com/EmilBabazade/MatrixCalculator#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1"
+  }
 }
